@@ -30,7 +30,7 @@ Select a restaurant from the dropdown below to view its specific order details, 
 # -------------------------------
 # Database Connection and Data Fetching
 # -------------------------------
-con = sqlite3.connect("delivery.db")
+con = sqlite3.connect("delivery_new.db")
 cur = con.cursor()
 
 def order_details_fetch():
